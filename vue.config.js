@@ -10,7 +10,7 @@ module.exports = {
       open: true,
       proxy: {
         '/netease-api': {
-          target: 'https://netease-cloud-music-api-seven-sable.vercel.app',
+          target: 'http://localhost:3000',
           pathRewrite: { '^/netease-api': '' },
           changeOrigin: true,
           secure: false,
